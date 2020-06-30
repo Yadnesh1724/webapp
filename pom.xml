@@ -33,6 +33,16 @@
 			<version>2.5</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+ 	   <repository>
+        	<id>releases</id>
+        	<url>http://18.204.16.136:8081</url>
+    	   </repository>
+    	   <snapshotRepository>
+        	<id>snapshots</id>
+        	<url>http://18.204.16.136:8081</url>
+	   </snapshotRepository>
+	</distributionManagement>
 	<build>
 		<finalName>mvn-hello-world</finalName>
 		<plugins>
